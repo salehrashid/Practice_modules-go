@@ -1,5 +1,5 @@
 package go_modules
 
-func Core() string {
-	return "Pinjam dulu seratus, nanti gua balikin"
+func Core(name string) string {
+	return "Pinjam dulu seratus, nanti gua balikin" + name
 }
